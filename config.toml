@@ -7,11 +7,19 @@ theme = 'diary'
 
 [params]
 subtitle = '自我觉醒'
-# customCSS = true
 customJS = true
 favicon = './fav.ico'
+# customCSS = true
 touchicon = './touch-icon.jpg'
 enableGitalk = true
+enableTwitterCards = true
+disableAutoCollapse = true
+description = 'web3,区块链,技术博客,web前端,h5'
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+  series = 'series'
 
 [params.Gitalk] 
 client_id = '928350f2c5504cfacdd5' # 您刚才创建Github Application 的 Client ID
