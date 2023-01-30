@@ -1,0 +1,5 @@
+baseURL = 'https://kenshinlin.github.io'
+languageCode = 'en-us'
+title = '啃牛'
+subtitle = '自我觉醒的时期'
+theme = 'diary'
