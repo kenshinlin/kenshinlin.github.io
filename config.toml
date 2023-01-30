@@ -14,12 +14,11 @@ touchicon = './touch-icon.jpg'
 enableGitalk = true
 
 [params.Gitalk] 
-    client_id = "928350f2c5504cfacdd5" # 您刚才创建Github Application 的 Client ID
-    client_secret = "4b9f508ff2469657d3a8f64e3be48508d9e18693" # 您刚才创建Github Application 的 Client Secret
-    repo = "kenshinlin.github.io" # 您的博客的github地址Repository name，例如：xxxx.github.io
-    owner = "3109389" # 您的GitHub ID
-    createIssueManually = false # If it is 'false', it is auto to make a Github issue when the administrators login.
-    distractionFreeMode = false # Enable hot key (cmd|ctrl + enter) submit comment.
+client_id = '928350f2c5504cfacdd5' # 您刚才创建Github Application 的 Client ID
+client_secret = '4b9f508ff2469657d3a8f64e3be48508d9e18693' # 您刚才创建Github Application 的 Client Secret
+repo = 'kenshinlin.github.io' # 您的博客的github地址Repository name，例如：xxxx.github.io
+#owner = "3109389" # 您的GitHub ID
+owner = 'kenshinlin'    
 
 [[menu.main]]
 url = "/categories"
